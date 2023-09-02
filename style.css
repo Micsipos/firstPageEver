@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    
+    box-sizing: border-box;
+    font-family: Roboto Slab;
+    color: rgb(63, 59, 63);
+    
+}
+.html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+   
+    
+
+.nav ul {
+    margin: 0;
+    
+}
+.nav li {
+    display: inline;
+    
+
+}
+.nav a {
+    display: inline-block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    
+     
+} 
+.main-nav {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(187, 178, 178, 0.3);
+    border-top: 2px solid rgba(187, 178, 178, 0.3);
+    
+}
+
+.nav a:hover {
+    background-color: #cc530c;
+}
+.main-nav {
+    padding: 0 5% ;
+}
+.main-header {
+    padding-top: 15px;
+    background-image:url("image/fire1.webp");
+    background-size: cover;
+    padding-bottom: 15px;
+ 
+}
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Monoton;
+    font-weight: normal;
+    color: rgb(243, 242, 242);
+    
+     
+}
+.band-name-larger {
+    font-size: 3cm; 
+}
+.content-section {
+    margin: 2em;
+}
+.container{
+    max-width: 45cm;
+    margin: 0 auto;
+    padding: 1.5cm;
+}
+.main-about{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5cm;
+    font-family: Monoton;
+    
+
+}
+.circle {
+    float: left;
+    height: 300px;
+    width: 350px;
+    margin: 15px;
+    border-radius: 40%;
+}
+.main-footer {
+    background-image: url(image/fire1.webp);
+    
+    background-size: cover;
+
+    color: azure;
+    padding: .25cm 0;
+}
+.footer-nav li {
+    padding: 0 .5em;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav img {
+    width: 60px;
+    height: 60px;
+}
+
+.btn {
+    text-align:center; 
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+ }
+ .btn-header{
+     margin: .5em 15% 2em 15%  ;
+     color: white;
+     border: 2px solid #cc530c;
+     background-color: rgba(155, 54, 54, 0.1);
+     border-radius: 0;
+     font-size: 1.5em;
+     font-weight: lighter;
+     padding-left: 4em;
+     padding-right: 4em;
+     margin:0 auto;
+     display: block;
+     
+ }
+ .btn-header:hover {
+     background-color: #cc530c;
+ }
+ .btn-play {
+    background-color: rgba(155, 54, 54, 0.1);
+    color: white;
+    border: 2px solid #cc530c;
+    display: block;
+    margin: 0;
+    border-radius: 50%;
+    margin:0 auto;
+    font-size: 4em;
+    padding: 0px; 
+    width: 80px;
+    height: 80px;
+    padding-bottom: 11px;
+    padding-left: 11px;
+    cursor: pointer;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    
+   
+}
+.btn-play:hover {
+    background-color: #cc530c;
+}
+
+    
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    display: flex;
+}    
+.tour-head {
+    font-size: 2em;
+    border-bottom: 2px solid black;
+     
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+    
+   
+}
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+.tour-date {
+    color: black;
+    font-weight: bold;
+    width: 30%;
+}
+.tour-city {
+    width: 32%;
+}
+
+.tour-name {
+    width: 24%;
+}
+.tour-btn {
+    max-width: 16%;
+}
+.btn-primery {
+    color:white;
+    background-color: #cc530c;
+    border:none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btn-primery:hover{
+    color:#443730;
+    background-color:orange ; 
+}
+
+.shop-item{
+    margin:30px;
+
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold ;
+    font-size: 1.5em;
+    color: rgb(42, 39, 39);
+    margin-bottom: 15px;
+}
+.shop-item-image{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: centre;
+    padding: 5px;
+}
+
+.shop-item-price {
+    font-weight: bold;
+    font-size: 1.5em;
+    flex-grow: 1;
+    color: rgb(207, 90, 90)
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.5em;
+    color:black
+
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: .5em;
+    margin-top: 10px;
+}
+.cart-row {
+    display: flex;
+}
+.cart-item {
+    width: 33.3%;
+
+}
+
+.cart-price {
+    width: 33.3%;
+    font-size: 1.2em;
+    color: black;
+
+}
+
+.cart-quantity {
+    width: 33.3%;
+}
+
+.cart-item-title {
+    color:rgb(68, 59, 59);
+    margin-left: .5em;
+    font-size: 1.2em;
+    
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.btn-danger {
+    color:white;
+    background-color: #cc530c;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+
+
+}
+.btn-danger:hover {
+    color:#443730;
+    background-color:orange ;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgb(209, 199, 199);
+    border: 1px solid #cc530c ;
+    color: black;
+    padding: 0;
+    text-align: center;
+    font-size: 1em;
+    margin-right: 75%;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+   
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.cart-total-head {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+    
+    
+}
+.cart-total-price {
+    border-bottom:3px solid rgb(207, 7, 7);
+    color: rgb(207, 7, 7);
+    font-size: 1.5em;
+
+}
+
+.cart-total-btn {
+    font-size: 1.5em;
+    display: block;
+    margin: 40px auto 80px auto;
+    width: 400px;
+    height: 75px;
+}
